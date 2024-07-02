@@ -6,6 +6,7 @@ use anchor_client::solana_client::rpc_response::RpcSimulateTransactionResult;
 use anchor_client::Program;
 use anchor_client::{Client as AnchorClient, Cluster};
 use anchor_lang::AnchorDeserialize;
+use anchor_spl::token_interface::spl_token_metadata_interface::borsh::BorshDeserialize;
 use solana_rpc_client::rpc_client::RpcClient;
 use solana_rpc_client::rpc_client::SerializableTransaction;
 use solana_sdk::commitment_config::CommitmentConfig;
